@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#task-list,
+#add-task {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#add-task input,
+#add-task button {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
